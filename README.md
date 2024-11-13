@@ -1,3 +1,7 @@
+# TailsTV rom
+yay random webtv rom
+please dont run this on a real box lol
+
 ## WebTV Build 1235 (v1.4.2.1 Internal Non-debug)
 
 This build supports **MOD/XM/S3M** and **Karaoke**. These features were *removed* in future builds of the WebTV Software.
