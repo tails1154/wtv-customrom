@@ -19,7 +19,7 @@ z_bgm[2]='SM64FileSel'
 
 z_def=new Array()
 z_def[0]=6//theme
-z_def[1]=1//bgm
+z_def[1]=0//bgm
 
 chars="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz@-"//64 possible different values
 function gTN(th){return z_th[parseInt(th)]}
