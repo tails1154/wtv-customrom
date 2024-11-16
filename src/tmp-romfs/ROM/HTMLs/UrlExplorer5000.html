@@ -1,0 +1,25 @@
+<html><head><display nooptions noscroll allowoffline noreconnectalert>
+<script src=file://rom/Cache/h.js></script><script src=file://rom/Cache/n.js></script></head><script>
+bgm=gV(1)
+head('Url Explorer 5000','',z_bgm[bgm],-1,1)
+function doMenu(){d.ua.vu.value=d.ua.um[d.ua.um.selectedIndex].value}
+function setMsg(msg){d.msg.box.value=msg}
+function urlInfo(){setMsg('                            This is a URL accessor. Will allow you to explore this build, and when connected, allow access to wtv-urls.')}
+window.onload=doMenu
+</script><center>
+<table><tr><td><form name=ua><select name=um onchange=doMenu() width=272 onblur=urlInfo()>
+<option value=file://rom/HTMLs/BuildInfo.html selected>file://rom/HTMLs/BuildInfo.html</option>
+<option value=file://rom/Cache/Music/index.html>file://rom/Cache/Music/index.html</option>
+<option value=file://rom/Cache/Audio/index.html>file://rom/Cache/Audio/index.html</option>
+<option value=file://rom/HTMLs/NVRAM.html>file://rom/HTMLs/NVRAM.html</option>
+<option value=file://rom/>file://rom/</option>
+<option value=client:>client:</option>
+<option value=wtv->wtv-</option>
+<option value=file://rom/HTMLs/ConnectingBroke.html>update client i guess (please don't actually use this, this was an experiment)</option>
+</select>
+<script>d.write('<input type=text name=vu value="" border=1 bgcolor='+gTC('bg')+' text='+gTC('t')+' cursor='+gTC('t')+' align=center width=214 executeurl asciionly autoactivate onblur="urlInfo()">')</script>
+<spacer type=block width=2><script>butt('Go','',56,'','onblur=urlInfo()')</script>
+</form></table></td></tr>
+<form>
+<input type="button" onclick="javascript:goHTV()" value="Back">
+</form>
