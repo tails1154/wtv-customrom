@@ -1,4 +1,8 @@
 #!/bin/bash
+git add .
+read -p "Enter commit message:" commitmsg
+git commit -m "$commitmsg"
+git push
 cd "$(realpath "$(dirname "${0}")")" || exit 1
 
 ZWNIBUILD=1235
